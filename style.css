@@ -1,0 +1,46 @@
+body {
+    font-family: helvetica neue;
+  }
+  nav {
+    background: #333;
+    padding:.15em 0;
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    margin-left: 2.5em;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav.nav-sticky {
+    position: -webkit-sticky;
+    position: sticky; top: 0px;
+  }
+  header {
+    background: salmon;
+    color: #fff;
+    display: flex;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 3.5em;
+  }
+  article {
+    line-height: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  article h1 {
+    padding-top: 75px;
+  }
+  
